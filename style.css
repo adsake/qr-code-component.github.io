@@ -18,7 +18,7 @@ p, h1, h2 {
 
 .card {
     margin: auto;
-    display: block;
+    
     max-width: 32rem;
     background-color: white;
     padding:1.5rem;
@@ -34,7 +34,7 @@ p, h1, h2 {
 }
 .data {
     padding:0 3rem 3rem 1.5rem;
-    display: block;
+    
 }
 .title, .info{
     text-align: center;
