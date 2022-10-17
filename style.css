@@ -17,7 +17,9 @@ p, h1, h2 {
 }
 
 .card {
-    margin:auto;
+    display: grid;
+    row-gap: 2rem;
+    margin: auto;
     max-width: 32rem;
     background-color: white;
     padding:1.5rem;
@@ -26,14 +28,11 @@ p, h1, h2 {
 }
 
 .qr-img {
-    display: block;
     max-width: 100%;
-    margin-bottom: 2rem;
     border-radius: 10px;
 }
 .data {
     padding:0 3rem 3rem 1.5rem;
-    
 }
 .title, .info{
     text-align: center;
@@ -41,11 +40,10 @@ p, h1, h2 {
 .title {
     color: #1f3251;
     font-size: 2rem;
-    margin-bottom: 1.5rem;
     text-align: center;
+    margin-bottom: 1rem;
 }
 .info {
     color: #7b879d;
     font-size: 1.5rem;
-    
 }
