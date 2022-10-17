@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-.attribution { 
-    
-    font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; }
 .attribution a { color: #3e52a3; }
 /*-----------------------------------------------*/
 * {
@@ -32,7 +30,7 @@ p, h1, h2 {
     border-radius: 10px;
 }
 .data {
-    padding:0 3rem 3rem 1.5rem;
+    padding:0 2rem 3rem 2rem;
 }
 .title, .info{
     text-align: center;
