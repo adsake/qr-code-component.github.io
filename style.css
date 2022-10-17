@@ -17,8 +17,7 @@ p, h1, h2 {
 }
 
 .card {
-    margin: auto;
-    
+    margin:auto;
     max-width: 32rem;
     background-color: white;
     padding:1.5rem;
