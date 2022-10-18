@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; margin-top: 2rem; }
 .attribution a { color: #3e52a3; }
 /*-----------------------------------------------*/
 * {
@@ -14,10 +14,19 @@ p, h1, h2 {
     margin:0;
 }
 
+body { margin: 0; }
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
 .card {
     display: grid;
     row-gap: 2rem;
-    margin: auto;
+    margin: 0 auto;
     max-width: 32rem;
     background-color: white;
     padding:1.5rem;
